@@ -29,7 +29,12 @@
   	<dependency>
   		<groupId>org.json</groupId>
   		<artifactId>json</artifactId>
-  		<version>20141113</version>
+  		<version>20131018</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>javax.servlet</groupId>
+  		<artifactId>javax.servlet-api</artifactId>
+  		<version>3.0.1</version>
   	</dependency>
   </dependencies>
 </project>
