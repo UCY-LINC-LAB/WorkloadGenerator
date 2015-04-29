@@ -19,7 +19,7 @@
 			</div>
 			<div class="content">
 				<form id="newWorkload"
-					action="/workload_webFrontend/ajax/workload/new" method="post">
+					action="/WorkloadGenerator/ajax/workload/new" method="post">
 					<div class="formContent">
 						<div data-section="common">
 							<h4> Workload Common Properties</h4>

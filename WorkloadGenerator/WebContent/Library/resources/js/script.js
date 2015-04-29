@@ -122,7 +122,7 @@ $('document').ready(function ()
 					
 					$.ajax({
 						type: 'GET',
-						url: '/workload_webFrontend/ajax/workload/stop',
+						url: 'WorkloadGenerator/ajax/workload/stop',
 						data: dt,
 						success: function(jsonObj){
 							wellItem.find('span[data-id="status"]').text(jsonObj.status);
@@ -191,7 +191,7 @@ $('document').ready(function ()
 		
 		$.ajax({
 			type: 'GET',
-			url: '/workload_webFrontend/ajax/workload/status',
+			url: '/WorkloadGenerator/ajax/workload/status',
 			data: dt,
 			success: function(jsonResponse){
 				statusUpdate_parseResponse(jsonResponse);
